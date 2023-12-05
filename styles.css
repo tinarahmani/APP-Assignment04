@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #dde5b6;
+}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    width: 70px;
+    text-align: center;
+}
+a:hover {
+    color: #a98467;
+    font-size: 20px;
+    background-color: #dde5b6;
+}
+.product-container{
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+img{
+    width: 400px;
+    height: 430px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+i {
+    background-color: #dde5b6;
+    margin-left: 10px;
+    margin-top: -25px;
+    padding: 8px;
+    border-radius: 3px;
+}
+.promo-code {
+    background-color: #a98467;
+    border: 2px dotted #6c584c;
+    text-align: center;
+    color: #f0ead2;
+    margin-right: 55px;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+.product-detail, h1, p {
+    width: 400px;
+    padding-left: 19px;
+}
+ul {
+    padding-left: 60px;
+    text-align: justify;
+    padding-right: 20px;
+}
+.row {
+    display: flex;
+}
+.row2 {
+    display: flex;
+}
+.row2 img {
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    border-radius: 20px;
+}
+.related-product {
+    background-color: #f0ead2;
+    border: 2px solid #6c584c;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.related-product-name {
+    background-color: #a98467;
+    border-radius: 10px;
+    font-family: times; 
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    opacity: 85%;
+    bottom: 0;
+    visibility: hidden;
+}
+.related-product:hover .related-product-name {
+    visibility: visible;
+}
+.related-product:hover {
+    background-color: #dde5b6;
+}
+.related-product:hover img {
+    opacity: 20%;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

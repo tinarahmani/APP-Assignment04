@@ -29,7 +29,7 @@ a:hover {
     background-color: white;
 }
 #header {
-    background-image: url(8.jpg);
+    background-image: url(images/8.jpg);
     background-size: cover;
 }
 h3 {
@@ -37,6 +37,8 @@ h3 {
     position: absolute;
     right: 25%;
     visibility: hidden;
+    background-color: #f0ead2;
+    opacity: 80%;
 }
 #header:hover h3 {
     visibility: visible;

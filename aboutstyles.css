@@ -39,6 +39,8 @@ h3 {
     visibility: hidden;
     background-color: #f0ead2;
     opacity: 80%;
+    margin-top: 0;
+    margin-right: -45px;
 }
 #header:hover h3 {
     visibility: visible;
